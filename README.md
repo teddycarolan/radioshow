@@ -291,8 +291,7 @@
       <!-- FOOTER -->
       <div id="footer">
         <p>
-          &copy; 2004 Psalms for Speedway Boulevard. All rights reserved.<br>
-          Best viewed in Internet Explorer 6.0 at 800x600 resolution.
+          &copy; 2026 Psalms for Speedway Boulevard. All rights reserved.<br>
         </p>
         <p><small>You are visitor #<span id="visit-count">004821</span></small></p>
       </div>
@@ -330,7 +329,7 @@
         <span class="gb-date">${dateStr}</span><br>${escapeHtml(message)}`;
       entries.insertBefore(newEntry, entries.firstChild);
       nameInput.value = ""; messageInput.value = "";
-      alert("Thanks for signing the guestbook, " + name + "!!! :)");
+      alert("Thanks for signing the guestbook, " + name + "!");
     }
  
     function escapeHtml(t) {
